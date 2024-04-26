@@ -29,4 +29,6 @@ bld/
 [Ll]og/
 [Ll]ogs/
 .vscode/
-[Bb]uild/
+[Bb]uilds/
+
+.DS_Store*
