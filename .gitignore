@@ -4,8 +4,9 @@
 # User-specific files
 *.rsuser
 *.suo
-*.user
+.DS_Store*
 *.userosscache
+*.user
 *.sln.docstates
 
 # User-specific files (MonoDevelop/Xamarin Studio)
@@ -29,6 +30,4 @@ bld/
 [Ll]og/
 [Ll]ogs/
 .vscode/
-[Bb]uilds/
-
-.DS_Store*
+[Bb]uilds/*
