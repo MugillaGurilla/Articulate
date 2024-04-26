@@ -14,4 +14,3 @@ Feel free to add more terms into [here](./src/data/articulate-data.json).
 ```
 4. Run `dotnet build`
 5. Run `dotnet run 50`, or however many cards you want to generate *up to 10000*.
-
