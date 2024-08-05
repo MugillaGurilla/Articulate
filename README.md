@@ -14,3 +14,13 @@ Feel free to add more terms into [here](./src/data/articulate-data.json).
 ```
 4. Run `dotnet build`
 5. Run `dotnet run 50`, or however many cards you want to generate *up to 10000*.
+6. Bonus: a handy function to put into your `.bash_profile` is this... It allows to run `articulate 500` from any terminal and instantly get a batch of 500 cards.
+```bash
+articulate() {
+  cd asbolute/path/to/folder
+  dotnet build
+  dotnet run $1
+  open ./builds
+  cd -
+}
+```
