@@ -18,6 +18,9 @@ Feel free to add more terms into [here](./src/data/articulate-data.json).
 ```bash
 articulate() {
   cd asbolute/path/to/folder
+  if [ -z "$1" ]; then
+		return;
+	fi
   dotnet build
   dotnet run $1
   open ./builds
