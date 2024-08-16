@@ -10,7 +10,7 @@ Feel free to add more terms into [here](./src/data/articulate-data.json).
 3. Various different NuGet packages will have to be added. This should cover it.
 ```bash
   dotnet add package Newtonsoft.Json --version 13.0.3 &&
-  dotnet add package SkiaSharp --version 2.88.8 && 
+  dotnet add package SkiaSharp --version 2.88.8
 ```
 4. Run `dotnet build`
 5. Run `dotnet run 50`, or however many cards you want to generate *up to 10000*.
